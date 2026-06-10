@@ -1,0 +1,40 @@
+{
+    "name": "amazon-clone-project",
+    "version": "1.0.0",
+    "description": "A fully functional e-commerce Amazon clone built with vanilla JavaScript, HTML, and CSS",
+    "main": "index.html",
+    "scripts": {
+        "start": "python -m http.server 8000",
+        "start:node": "npx http-server",
+        "test": "echo \"No tests configured yet\""
+    },
+    "keywords": [
+        "ecommerce",
+        "amazon",
+        "shopping",
+        "cart",
+        "javascript",
+        "vanilla-js",
+        "clone"
+    ],
+    "author": "Syed Mahmood Hassan",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mahmoodhassansyed/amazon-clone-project"
+    },
+    "dependencies": {},
+    "devDependencies": {},
+    "notes": {
+        "description": "This project uses vanilla JavaScript with no external dependencies except Day.js (loaded via CDN). All functionality is implemented from scratch for learning purposes.",
+        "browser-apis": [
+            "ES6 Modules",
+            "SessionStorage API",
+            "DOM API",
+            "Fetch API"
+        ],
+        "external-cdn": [
+            "Day.js - https://unpkg.com/dayjs@1.11.10/esm/index.js"
+        ]
+    }
+}
