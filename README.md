@@ -2,7 +2,7 @@
 
 A fully functional e-commerce web application built with **vanilla JavaScript, HTML, and CSS**. This project recreates core Amazon functionality including product browsing, shopping cart management, checkout, and order tracking.
 
-**Version: 1.0**
+**Version: 1.0.1**
 
 ## Features:
 
@@ -131,6 +131,10 @@ Data persists during your browser session and clears when you close all tabs.
 - Firefox 88+
 - Safari 14+
 - Mobile browsers (iOS Safari, Chrome Mobile)
+
+## Changelog
+
+Version 1.0.1: Place order button takes to orders.html page instead of showing you a blank checkout.html page.
 
 ## 📄 License
 

@@ -147,9 +147,8 @@ function placeOrderLogic(event) {
     updateCartQuantity();
 
     // Show success message
-    alert(
-        'Order placed successfully! Order ID: ' + orderItem.orderHeader.orderId
-    );
+    // Correct
+    window.location.href = '../orders.html';
 }
 
 function renderCartItems() {
